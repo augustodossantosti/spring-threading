@@ -9,7 +9,6 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 /**
  * Contém a definição dos Beans de TaskExecutor.
  * 
- * @author Augusto Santos
  */
 @EnableAsync
 @Configuration

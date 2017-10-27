@@ -25,7 +25,7 @@ public class AsynchronusService {
 	 * previamente injetado. A classe a ser executada precisa
 	 * implementar Runnable.
 	 */
-	public void executeAsynchronously() {
+	public void executeAsyncThread() {
 		
 		final MyThread myThread = applicationContext.getBean(MyThread.class);
 		taskExecutor.execute(myThread);

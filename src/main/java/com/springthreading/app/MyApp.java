@@ -10,7 +10,6 @@ import com.springthreading.service.AsynchronusService;
  * Realiza a execução dos métodos de AsynchronusService
  * após o carregamento do contexto do Spring.
  * 
- * @author augusto
  */
 @Component
 public class MyApp implements CommandLineRunner {
@@ -22,7 +21,7 @@ public class MyApp implements CommandLineRunner {
 	public void run(String... arg0) throws Exception {
 		
 		asyncService.executeAsyncMethod();
-		asyncService.executeAsynchronously();
+		asyncService.executeAsyncThread();
 	}
 	
 }
